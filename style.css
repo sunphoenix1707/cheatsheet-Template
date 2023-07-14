@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content :center;
+    background-color: black;
+    color :white;
+    height:60px;
+}
+.logo {
+    padding: 0 30px;
+}
+.logo img{
+    width:40px;
+}
+.content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+}
+.container {
+    /* background-color:aqua; */
+    width:60vw;
+    margin:auto;
+    padding:32px 0;
+
+
+}
+.toolbar-item button{
+    cursor:pointer;
+    color:white;
+    border:1px solid white;
+    border-radius:15px;
+    padding:5px 14px;
+}
